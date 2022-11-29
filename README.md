@@ -40,25 +40,14 @@ p = F : S,
 
 **Давление** определяется как отношение модуля силы F, действующей перпендикулярно поверхности, к площади S этой поверхности:
 
-<p align="center"><img 
-    style="display: block; 
-           margin-left: auto;
-           margin-right: auto;
-           width: 10%;"
-    src="https://latex.codecogs.com/svg.image?\inline&space;P&space;=&space;\tfrac{F}{S}" 
-    alt="Our logo">
-</img></p>
+<p align="center"><img style="width: 10%;"src="https://latex.codecogs.com/svg.image?\inline&space;P&space;=&space;\tfrac{F}{S}"></img>
+</p>
 
 
 Если же сила направлена под некоторым **углом к перпендикуляру к площадке**, то создаваемое этой силой давление находится по формуле:
 
-<img 
-    style="display: block;
-            margin: 0 auto;
-            width: 15%;"
-    src="https://latex.codecogs.com/svg.image?\inline&space;P&space;=&space;\tfrac{F&space;cos&space;a}{S}" 
-    alt="Our logo">
-</img>
+<p align="center"><img style="width: 15%;"src="https://latex.codecogs.com/svg.image?\inline&space;P&space;=&space;\tfrac{F&space;cos&space;a}{S}"></img>
+</p>
 
 В системе СИ давление измеряется в паскалях (Па): 1 Па = 1 Н/м2. Часто используются внесистемные единицы: нормальное атмосферное давление (атм) и давление одного миллиметра ртутного столба (мм.рт.ст.):
 <div style="text-align: center;">1 атм = 101325 Па = 760 мм.рт.ст.</div>
@@ -67,37 +56,24 @@ p = F : S,
 
 Давление жидкости на дно или боковые стенки сосуда зависит от высоты столба жидкости над той точкой в которой измеряется давление. **Гидростатическое давление столба жидкости рассчитывается по формуле:**
 
-<img 
-    style="display: block;
-            margin: 0 auto;
-            width: 13%;"
-    src="https://latex.codecogs.com/svg.image?\inline&space;P&space;=&space;\rho&space;gh" 
-    alt="Our logo">
-</img>
+<p align="center"><img style="width: 13%;"src="https://latex.codecogs.com/svg.image?\inline&space;P&space;=&space;\rho&space;gh"></img>
+</p>
 
 Обратите внимание, что оказываемое давление никоим образом не зависит от формы сосуда, а зависит только от рода жидкости (т.е. её плотности) и от высоты столба этой жидкости. Такое же давление на глубине *h* в соответствии с законом Паскаля жидкость оказывает и на боковые стенки сосуда.
 
 Итак, если в задаче по гидростатике идет речь о давлении столба жидкости на боковую грань в некоторой конкретной точке, то такое давление находится по предыдущей формуле, где *h* – расстояние от этой точки до поверхности жидкости. Но иногда в задачах по гидростатике необходимо рассчитать **среднее** давление на всю боковую поверхность сосуда. В таком случае применим формулу:
 
-<img 
-    style="display: block;
-            margin: 0 auto;
-            width: 60%;"
-    src="https://latex.codecogs.com/svg.image?P\textsc{side}=\tfrac{P\textsc{surf}&plus;P\textsc{bottom}}{2}=\tfrac{\rho*0&space;&plus;&space;\rho&space;gh}{2}&space;=&space;\tfrac{\rho&space;g&space;h}{2}" 
-    alt="Our logo">
-</img>
+<p align="center"><img 
+    style="width: 60%;" src="https://latex.codecogs.com/svg.image?P\textsc{side}=\tfrac{P\textsc{surf}&plus;P\textsc{bottom}}{2}=\tfrac{\rho*0&space;&plus;&space;\rho&space;gh}{2}&space;=&space;\tfrac{\rho&space;g&space;h}{2}"></img>
+</p>
 
 В этом случае, h – это общая высота столба жидкости в сосуде.
 
 Если жидкость находится в цилиндре под поршнем, то действуя на поршень некоторой внешней силой F, можно создавать в жидкости дополнительное давление p<sub>0</sub> = F/S, где: S – площадь поршня. Таким образом, полное давление в жидкости на глубине h можно записать в виде:
 
-<img 
-    style="display: block;
-            margin: 0 auto;
-            width: 20%;"
-    src="https://latex.codecogs.com/svg.image?P=p\textsc{0}&space;&plus;&space;\rho&space;gh" 
-    alt="Our logo">
-</img> 
+<p align="center"><img 
+    style="width: 20%;" src="https://latex.codecogs.com/svg.image?P=p\textsc{0}&space;&plus;&space;\rho&space;gh"></img>
+</p>
 
 Если поршень убрать, то давление на поверхность жидкости будет равно атмосферному давлению. Если мы погружаемся в воду, то давление на некоторой глубине тоже будет состоять из двух давлений – давления атмосферы и давления столба воды (которое определяется глубиной погружения).
 
@@ -120,45 +96,25 @@ p = F : S,
 
 Если оба вертикально расположенных цилиндра сообщающихся сосудов закрыть поршнями, то с помощью внешних сил, приложенных к поршням, в жидкости можно создать большое давление p, во много раз превышающее гидростатическое давление ρgh в любой точке системы. Тогда можно считать, что во всей системе устанавливается одинаковое давление p (согласно закону Паскаля). Если поршни имеют разные площади S<sub>1</sub> и S<sub>2</sub>, то на них со стороны жидкости действуют разные силы F<sub>1</sub> = pS<sub>1</sub> и F<sub>2</sub> = pS<sub>2</sub>. Такие же по модулю, но противоположно направленные внешние силы должны быть приложены к поршням для удержания системы в равновесии. Таким образом, для гидравлического пресса имеем формулу:
 
-<img 
-    style="display: block;
-            margin: 0 auto;
-            width: 15%;"
-    src="https://latex.codecogs.com/svg.image?\tfrac{F\textsc{1}}{S\textsc{1}}=\tfrac{F\textsc{2}}{S\textsc{2}}" 
-    alt="Our logo">
-</img> 
+<p align="center"><img style="width: 15%;" src="https://latex.codecogs.com/svg.image?\tfrac{F\textsc{1}}{S\textsc{1}}=\tfrac{F\textsc{2}}{S\textsc{2}}"></img>
+</p>
 
 **Это соотношение вытекает из равенства давлений и выполняется только в идеальном гидравлическом прессе**, т.е. таком в котором нет трения. Если S<sub>2</sub> >> S<sub>1</sub>, то и F<sub>2</sub> >> F<sub>1</sub>. Устройства в которых выполняются эти условия называют гидравлическими прессами (машинами, домкратами). Они позволяют получить значительный выигрыш в силе. Если поршень в узком цилиндре переместить вниз под действием внешней силы F1 на расстояние h1, то поршень в широком цилиндре переместится на расстояние h2, которое может быть найдено из соотношения:
 
-<img 
-    style="display: block;
-            margin: 0 auto;
-            width: 22%;"
-    src="https://latex.codecogs.com/svg.image?S\textsc{1}h\textsc{1}&space;=&space;S\textsc{2}h\textsc{2}" 
-    alt="Our logo">
-</img>
+<p align="center"><img style="width: 22%;"src="https://latex.codecogs.com/svg.image?S\textsc{1}h\textsc{1}&space;=&space;S\textsc{2}h\textsc{2}"></img>
+</p>
 
 **Данное соотношение вытекает из равенства объемов и выполняется в любом гидравлическом прессе**. Это выражение получается потому, что при перемещении поршня перемещаются одинаковые объемы жидкости, то есть сколько жидкости ушло из одного цилиндра столько же пришло во второй, или V<sub>1</sub> = V<sub>2</sub>. Таким образом, выигрыш в силе обязательно сопровождается таким же проигрышем в расстоянии. При этом произведение силы на расстояние остается неизменным:
 
-<img 
-    style="display: block;
-            margin: 0 auto;
-            width: 20%;"
-    src="https://latex.codecogs.com/svg.image?F\textsc{1}h\textsc{1}&space;=&space;F\textsc{2}h\textsc{2}" 
-    alt="Our logo">
-</img>
+<p align="center"><img style="width: 20%;"src="https://latex.codecogs.com/svg.image?F\textsc{1}h\textsc{1}&space;=&space;F\textsc{2}h\textsc{2}"></img>
+</p>
 
 **Последняя формула вытекает из равенства работ и выполняется только для идеальных машин**, в которых не действуют силы трения. Таким образом, в гидравлическом прессе всё происходит в полном соответствии с «золотым правилом механики»: во сколько раз мы выигрываем в силе, во столько же раз мы проигрываем в расстоянии. При этом ни одна машина не может дать выигрыша в работе.
 
 Так как гидравлический пресс является механизмом, то его работу можно характеризовать КПД (коэффициентом полезного действия). **КПД гидравлического пресса** в задачах по гидростатике рассчитывается по следующей формуле:
 
-<img 
-    style="display: block;
-            margin: 0 auto;
-            width: 18%;"
-    src="https://latex.codecogs.com/svg.image?\eta&space;&space;=&space;\tfrac{{}F\textsc{2}h\textsc{2}}{F\textsc{1}h\textsc{1}}" 
-    alt="Our logo">
-</img>
+<p align="center"><img style="width: 18%;" src="https://latex.codecogs.com/svg.image?\eta&space;&space;=&space;\tfrac{{}F\textsc{2}h\textsc{2}}{F\textsc{1}h\textsc{1}}"></img>
+</p>
 
 где: А<sub>пол</sub> = F<sub>2</sub>h<sub>2</sub> – полезная работа (работа по подъему груза), Азатр = F<sub>1</sub>h<sub>1</sub> – затраченная работа. В большинстве задач КПД гидравлического пресса принимают за 100%. КПД рассчитывается в том случае, если речь идет о неидеальном гидравлическом прессе.
 
@@ -169,25 +125,16 @@ p = F : S,
 
 Из–за разности давлений в жидкости на разных уровнях возникает выталкивающая или Архимедова сила, которая вычисляется по формуле:
 
-<img 
-    style="display: block;
-            margin: 0 auto;
-            width: 20%;"
-    src="https://latex.codecogs.com/svg.image?F\textsc{a}&space;=&space;\rho&space;gV" 
-    alt="Our logo">
-</img>
+<p align="center"><img style="width: 20%;" src="https://latex.codecogs.com/svg.image?F\textsc{a}&space;=&space;\rho&space;gV"></img>
+</p>
 
 где: V – объем вытесненной телом жидкости, или же объем погружённой в жидкость части тела, ρ – плотность жидкости в которую погружено тело, и следовательно, ρV – масса вытесненной жидкости.
 
 **Архимедова сила, действующая на погруженное в жидкость (или газ) тело, равна весу жидкости (или газа), вытесненной телом.** Это утверждение, называемое **законом Архимеда**, справедливо для тел любой формы.
 При этом вес тела (т.е. сила с которой тело действует на опору или подвес) погруженного в жидкость уменьшается. Если принять, что вес покоящегося тела в воздухе равен mg, а именно так мы и будем поступать в большинстве задач (хотя вообще говоря на тело в воздухе также действует очень маленькая сила Архимеда со стороны атмосферы, ведь тело погружено в газ из атмосферы), то для веса тела в жидкости можно легко вывести следующую важную формулу:
-<img 
-    style="display: block;
-            margin: 0 auto;
-            width: 70%;"
-    src="https://latex.codecogs.com/svg.image?P\textsc{body&space;in&space;liquid}&space;=&space;P\textsc{body&space;in&space;air}(1&space;-&space;\frac{\rho\textsc{liquids}}{\rho\textsc{body}})" 
-    alt="Our logo">
-</img>
+
+<p align="center"><img style="width: 70%;" src="https://latex.codecogs.com/svg.image?P\textsc{body&space;in&space;liquid}&space;=&space;P\textsc{body&space;in&space;air}(1&space;-&space;\frac{\rho\textsc{liquids}}{\rho\textsc{body}})"></img>
+</p>
 
 Эта формула может быть использована при решении большого количества задач. Ее можно запомнить. При помощи закона Архимеда осуществляется не только мореплавание, но и воздухоплавание. Из закона Архимеда вытекает, что если средняя плотность тела ρ<sub>т</sub> больше плотности жидкости (или газа) ρ (или по–другому mg > F<sub>A</sub>), тело будет опускаться на дно. Если же ρ<sub>т</sub> < ρ (или по–другому mg < F<sub>A</sub>), тело будет плавать на поверхности жидкости. Объем погруженной части тела будет таков, что вес вытесненной жидкости равен весу тела. Для подъема воздушного шара в воздухе его вес должен быть меньше веса вытесненного воздуха. Поэтому воздушные шары заполняют легкими газами (водородом, гелием) или нагретым воздухом.
 
@@ -196,13 +143,8 @@ p = F : S,
 
 Если тело находится на поверхности жидкости (плавает), то на него действует всего две силы (Архимеда вверх и тяжести вниз), которые уравновешивают друг друга. Если тело погружено только в одну жидкость, то записав второй закон Ньютона для такого случая и выполнив простые математические операции можем получить следующее выражение связывающее объемы и плотности:
 
-<img 
-    style="display: block;
-            margin: 0 auto;
-            width: 30%;"
-    src="https://latex.codecogs.com/svg.image?\tfrac{V\textsc{dives}}{V}&space;=&space;\tfrac{\rho&space;\textsc{body}}{\rho&space;\textsc{liquid}}" 
-    alt="Our logo">
-</img>
+<p align="center"><img style="width: 30%;" src="https://latex.codecogs.com/svg.image?\tfrac{V\textsc{dives}}{V}&space;=&space;\tfrac{\rho&space;\textsc{body}}{\rho&space;\textsc{liquid}}"></img>
+</p>
 
 где: V<sub>погр</sub> – объем погруженной части тела, V – полный объем тела. При помощи этого соотношения легко решается большинство задач на плавание тел.
 
