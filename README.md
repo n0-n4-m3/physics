@@ -8,7 +8,7 @@
            margin-left: auto;
            margin-right: auto;
            width: 10%;"
-    src="https://latex.codecogs.com/png.image?\inline&space;\dpi{110}P&space;=&space;\tfrac{F}{S}" 
+    src="https://latex.codecogs.com/svg.image?\inline&space;P&space;=&space;\tfrac{F}{S}" 
     alt="Our logo">
 </img>
 
